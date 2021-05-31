@@ -1,3 +1,7 @@
+/*
+  Link 作为RouterContext的consumer， 拿到保存在上下文的history库暴露出的对象，可以进行，可以代理push和replace方法
+*/
+
 import React from "react";
 import { __RouterContext as RouterContext } from "react-router";
 import PropTypes from "prop-types";

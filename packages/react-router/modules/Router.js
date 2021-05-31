@@ -1,3 +1,6 @@
+/*
+  Note：设置listener,只要location一变，调用this.setState，触发更新
+*/
 import React from "react";
 import PropTypes from "prop-types";
 import warning from "tiny-warning";

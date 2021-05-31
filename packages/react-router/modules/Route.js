@@ -1,3 +1,6 @@
+/*
+  Note: 在Route内部又包裹了一层Router.Provider，根据当前location去更新上下文, 使得hook可以拿到相关的值。
+*/
 import React from "react";
 import { isValidElementType } from "react-is";
 import PropTypes from "prop-types";

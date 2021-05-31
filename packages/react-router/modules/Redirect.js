@@ -1,3 +1,6 @@
+/*
+  调用history库的posh或replace 修改一下location对象.
+*/
 import React from "react";
 import PropTypes from "prop-types";
 import { createLocation, locationsAreEqual } from "history";
